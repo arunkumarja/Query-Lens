@@ -1,11 +1,14 @@
 
 import './App.css'
+import Routess from './routes/Routess';
+import { BrowserRouter } from "react-router-dom";
 
 const App =()=>{
-
   return (
-    <h1 className='text-3xl'>Hello</h1>
+    <BrowserRouter>
+      <Routess/>
+    </BrowserRouter> 
   );
 }
 
-export default App
+export default App;
